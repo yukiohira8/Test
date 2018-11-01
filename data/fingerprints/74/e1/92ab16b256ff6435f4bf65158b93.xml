@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-01 04:37:39.321 UTC</timestamp>
+  <md5sum>74e192ab16b256ff6435f4bf65158b93</md5sum>
+  <fileName>Credential id=0518b771-73b1-4b7d-94fb-e8dfaefd9454 name=yuki.ohira/****** (GitLab認証用のユーザ)</fileName>
+  <usages>
+    <entry>
+      <string>Test</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Docker-test4</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

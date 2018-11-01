@@ -1,0 +1,10 @@
+Started by user [8mha:////4JZ3OvfBLLSWeFw5ADgeo+SD8aQuDK0hrlDVobxjIyTAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYu/dLi1CL9ytLsTAAwCC3YvwAAAA==[0mYuki Ohira
+Building in workspace /var/jenkins_home/workspace/Test
+[Test] $ /bin/sh -xe /tmp/jenkins458470926075231822.sh
++ git config --global user.name yuki.ohira
++ git config --global user.email yuki.ohira@denen.com
++ git clone https://gitlab.com/yuki.ohira/docker-test2.git
+Cloning into 'docker-test2'...
+fatal: could not read Username for 'https://gitlab.com': No such device or address
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

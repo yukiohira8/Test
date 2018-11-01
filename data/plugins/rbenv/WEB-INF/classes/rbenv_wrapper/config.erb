@@ -1,0 +1,45 @@
+<%
+f = taglib("/lib/form")
+f.entry(:title => "The Ruby version", :field => "version") do
+  # Jenkins uses Java reflection to find "doCheck" methods implemented in the
+  # descendant of hudson.model.Descriptor.
+  # Since JRuby objects do not respond to Java refrections expectedly,
+  # we must specify :checkUrl explicitly as an option of textbox.
+  f.textbox(:default => descriptor.class.const_get(:DEFAULT_VERSION), :checkUrl => "'#{rootURL}/descriptorByName/rbenv-RbenvWrapper/checkVersion?value='+encodeURIComponent(this.value)")
+end
+f.advanced do
+  f.entry(:title => "Ignore local version", :field => "ignore_local_version") do
+    f.checkbox(:default => descriptor.class.const_get(:DEFAULT_IGNORE_LOCAL_VERSION))
+  end
+end
+f.entry(:title => "Preinstall gem list", :field => "gem_list") do
+  f.textbox(:default => descriptor.class.const_get(:DEFAULT_GEM_LIST))
+end
+f.advanced do
+  f.entry(:title => "RBENV_ROOT", :field => "rbenv_root") do
+    f.textbox(:default => descriptor.class.const_get(:DEFAULT_RBENV_ROOT), :checkUrl => "'#{rootURL}/descriptorByName/rbenv-RbenvWrapper/checkRbenvRoot?value='+encodeURIComponent(this.value)")
+  end
+  f.entry(:title => "CONFIGURE_OPTS", :field => "configure_opts") do
+    f.textbox(:default => descriptor.class.const_get(:DEFAULT_CONFIGURE_OPTS))
+  end
+  f.entry(:title => "RUBY_CONFIGURE_OPTS", :field => "ruby_configure_opts") do
+    f.textbox(:default => descriptor.class.const_get(:DEFAULT_RUBY_CONFIGURE_OPTS))
+  end
+  f.entry(:title => "rbenv.git", :field => "rbenv_repository") do
+    f.textbox(:default => descriptor.class.const_get(:DEFAULT_RBENV_REPOSITORY))
+  end
+  f.advanced do
+    f.entry(:title => "branch", :field => "rbenv_revision") do
+      f.textbox(:default => descriptor.class.const_get(:DEFAULT_RBENV_REVISION))
+    end
+  end
+  f.entry(:title => "ruby-build.git", :field => "ruby_build_repository") do
+    f.textbox(:default => descriptor.class.const_get(:DEFAULT_RUBY_BUILD_REPOSITORY))
+  end
+  f.advanced do
+    f.entry(:title => "branch", :field => "ruby_build_revision") do
+      f.textbox(:default => descriptor.class.const_get(:DEFAULT_RUBY_BUILD_REVISION))
+    end
+  end
+end
+%>

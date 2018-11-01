@@ -1,0 +1,5 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Rake plugin' groupId='org.jenkins-ci.plugins' artifactId='rake' version='1.8.0' url='http://wiki.jenkins-ci.org/display/JENKINS/Rake+Plugin'>
+    <l:description />
+  </l:dependency>
+</l:dependencies>
