@@ -38,7 +38,6 @@ services:
         volumes:
             - ./data:/var/jenkins_home
 
-
 # マウントするデータ領域を指定
 volumes:
     # ローカルPC上にpost-volume領域が作成される
