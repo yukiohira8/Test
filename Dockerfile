@@ -1,6 +1,7 @@
 #  rubyの2.3.6 をベースイメージに指定
 FROM ruby:2.3.6
 
+
 # ruby コンテナの中で実行するコマンドを以降に記載
 
 # rails 実行に必要な build-essentialとnodejsをインストール
