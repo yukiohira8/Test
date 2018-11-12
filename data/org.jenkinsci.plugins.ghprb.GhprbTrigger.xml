@@ -21,7 +21,14 @@
       <credentialsId>de08547d-01dc-4c1a-9cfc-1376a9a8818e</credentialsId>
       <id>e2e72867-ffa4-4df8-800e-8fd8526c00ad</id>
       <description>Anonymous connection</description>
-      <secret>{AQAAABAAAAAQVj16SF86OxpogVxwv+Jfofr4Mrt6+qroKHvxkkpGjqI=}</secret>
+      <secret>{AQAAABAAAAAwlpv95bbXEP8OtY0IczxnGopD5pc7vw76MfLnvFbL0/LsjycZNhy8VUHgDl9CZmO2aI7eUKWFa599LIuz3hP56w==}</secret>
+    </org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+    <org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
+      <serverAPIUrl>https://api.github.com</serverAPIUrl>
+      <credentialsId>629b58b5-ef54-42e0-9491-2b54c6bac744</credentialsId>
+      <id>c597d73e-6c2f-4ed6-bba9-10e32c2053ad</id>
+      <description></description>
+      <secret>{AQAAABAAAAAQWgVYc69o8AtmGp3orGGUpFkQniQPB9cA82hHomVyAUg=}</secret>
     </org.jenkinsci.plugins.ghprb.GhprbGitHubAuth>
   </githubAuth>
   <adminlist></adminlist>
