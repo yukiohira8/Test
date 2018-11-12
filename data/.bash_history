@@ -31,3 +31,35 @@ pwd
 cd
 ls -la
 exit
+mkdir  /var/lib/jenkins/.ssh/
+mkdir  /var/lib/jenkins/
+ll
+ls
+ls -la
+pwd
+cd home/
+ls -ltr
+ll root/
+ls -la root/
+ls
+pwd
+v
+ls -la /
+ls /home/
+sudo /var/lib/jenkins
+su root
+su -
+RUN echo "root:Docker!" | chpasswd
+exit
+pwd
+ll
+ls -la
+usernmod -d /home/jenkins/ jenkins
+usermod -d /home/jenkins/ jenkins
+su -
+exit
+ll
+su root
+exit
+su -
+exit
