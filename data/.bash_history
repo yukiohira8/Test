@@ -27,3 +27,7 @@ ls -l
 wget  http://updates.jenkins-ci.org/download/war/2.138.2/jenkins.war]
 wget  http://updates.jenkins-ci.org/download/war/2.138.2/jenkins.war
 exit
+pwd
+cd
+ls -la
+exit

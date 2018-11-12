@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2018-11-06 04:55:11.441 UTC</timestamp>
+  <md5sum>68f466aab6a94db0ec55b6ca9b11fadd</md5sum>
+  <fileName>Credential id=de08547d-01dc-4c1a-9cfc-1376a9a8818e name=yukiohira8/****** (github用)</fileName>
+  <usages>
+    <entry>
+      <string>自動テスト</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
