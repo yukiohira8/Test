@@ -15,4 +15,5 @@ Rails.application.routes.draw do
 
   get  'ohira',to: 'ohira#index'
   get  'ohira/yuki',to: 'ohira#yuki'
+
 end
